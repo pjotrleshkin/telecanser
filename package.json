@@ -2,7 +2,6 @@
   "name": "telecanser-master",
   "version": "1.0.0",
   "description": "TELECANSER",
-  "type": "module",
   "main": "index.js",
   "dependencies": {
     "axios": "^0.26.0",

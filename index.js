@@ -1,10 +1,7 @@
-import { createRequire } from "module";
-const require = createRequire(import.meta.url);
-
 const fs = require("fs");
 const puppeteerChrome = require('puppeteer');
 
-const { Telegraf, Markup, Scenes, session } = require('telegraf');
+const { Telegraf } = require('telegraf');
 
 const bot = new Telegraf('5272155925:AAEujqTLXySZkIsAuElDpVjC1n7uPXcm34w'); 
 
